@@ -59,14 +59,14 @@ for x in Var.SUDO:
 @Ayu.on(events.NewMessage(pattern="^/help"))
 async def help(event):
     # URL to the image you want to send with the help message
-    image_url = "https://te.legra.ph/file/310a7fad596b00513692a.jpg"
+    image_url = "https://graph.org/file/ca4caf1f5539347150be3-4adb1df2f4011fcdc1.jpg"
     
     # Help message text with the available commands
     help_text = """
 ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
     
-- `/ping` : ᴄʜᴇᴄᴋ's ʙᴏᴛ's ʀᴇsᴘᴏɴsᴇ ᴛɪᴍᴇ.
-- `/banall` : ʙᴀɴ ᴀʟʟ ɴᴏɴ-ᴀᴅᴍɪɴ ᴍᴇᴍʙᴇʀs ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ.
+- `/ping` : ᴄʜᴇᴄᴋ ᴍʏ ʀᴇsᴘᴏɴsᴇ ᴛɪᴍᴇ ɪɴ ᴍs.
+- `/banall` : ʙᴀɴ ᴀʟʟ ɴɪɢɢᴀs ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ.
 - `/unbanall` : ᴜɴʙᴀɴ ᴀʟʟ ʙᴀɴɴᴇᴅ ᴍᴇᴍʙᴇʀs ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ.
 - `/kickall` : ᴋɪᴄᴋ ᴀʟʟ ɴᴏɴ-ᴀᴅᴍɪɴ ᴍᴇᴍʙᴇʀs ɪɴ ᴛʜᴇ ɢʀᴏᴜᴘ.
 - `/leave` : ᴍᴀᴋᴇ ᴛʜᴇ ʙᴏᴛ ʟᴇᴀᴠᴇ ᴛʜᴇ ɢʀᴏᴜᴘ [ᴏɴʟʏ sᴜᴅᴏ].
@@ -99,11 +99,11 @@ async def start_command(event):
         "ᴛʜɪs ʙᴏᴛ ɪs ᴅᴇsɪɢɴᴇᴅ ᴛᴏ ʙᴀɴ ᴀɴᴅ ᴜɴʙᴀɴ ᴜsᴇʀs ɪɴ ɢʀᴏᴜᴘs.\n\n"
         "ʜɪᴛ `/help` ᴛᴏ ɢᴇᴛ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs.",
         buttons=[
-            [Button.url("ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/venomOwners")],
-            [Button.url("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/venom_chatz")],
-            [Button.url("ʀᴇᴘᴏ ʟɪɴᴋ", url="https://github.com/venombolteop/Banall")], 
+            [Button.url("ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/aboutxhenry")],
+            [Button.url("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/henryxsupport")],
+            [Button.url("Oᴡɴᴇʀ", url="https://t.me/richxstop")], 
         ],
-        file='https://te.legra.ph/file/310a7fad596b00513692a.jpg',  # Replace with your image URL
+        file='https://graph.org/file/7438999f48faad861f81c-cc25c52ab50faab989.jpg',  # Replace with your image URL
     )
 
 
@@ -111,7 +111,7 @@ async def start_command(event):
 @Ayu.on(events.NewMessage(pattern="^/kickall"))
 async def kickall(event):
     if not event.is_group:
-        reply = "ɴᴏᴏʙ !! ᴜsᴇ ᴛʜɪs ᴄᴍᴅ ɪɴ ɢʀᴏᴜᴘ."
+        reply = "ɴᴏᴏʙ !! ᴜsᴇ ᴛʜɪs ᴄᴍᴅ ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘ."
         return await event.reply(reply)
 
     await event.delete()
