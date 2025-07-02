@@ -100,7 +100,7 @@ async def start_command(event):
         "ʜɪᴛ `/help` ᴛᴏ ɢᴇᴛ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs.",
         buttons=[
             [Button.url("ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/aboutxhenry")],
-            [Button.url("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/henryxsupport")],
+            [Button.url("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/banallxsupport")],
             [Button.url("Oᴡɴᴇʀ", url="https://t.me/richxstop")], 
         ],
         file='https://graph.org/file/7438999f48faad861f81c-cc25c52ab50faab989.jpg',  # Replace with your image URL
