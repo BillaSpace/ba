@@ -99,9 +99,9 @@ async def start_command(event):
         "ᴛʜɪs ʙᴏᴛ ɪs ᴅᴇsɪɢɴᴇᴅ ᴛᴏ ʙᴀɴ ᴀɴᴅ ᴜɴʙᴀɴ ᴜsᴇʀs ɪɴ ɢʀᴏᴜᴘs.\n\n"
         "ʜɪᴛ `/help` ᴛᴏ ɢᴇᴛ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs.",
         buttons=[
-            [Button.url("ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/aboutxhenry")],
-            [Button.url("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/banallxsupport")],
-            [Button.url("Oᴡɴᴇʀ", url="https://t.me/richxstop")], 
+            [Button.url("ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/billaCore")],
+            [Button.url("ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/BillaSpace")],
+            [Button.url("Oᴡɴᴇʀ", url="https://t.me/Ifeelram")], 
         ],
         file='https://graph.org/file/7438999f48faad861f81c-cc25c52ab50faab989.jpg',  # Replace with your image URL
     )
